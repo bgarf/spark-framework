@@ -5,7 +5,7 @@ import java.util.Objects;
 public class CourseIdea {
     private String title;
     private String creator;
-    CourseIdea(String title, String creator){
+    public CourseIdea(String title, String creator){
         this.title = title;
         this.creator = creator;
     }

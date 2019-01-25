@@ -1,6 +1,8 @@
 {{#partial "content"}}
 {{#if username}}
-    <h1>SHE WAS A QUEEN</h1>
+    <h1>Welcome {{ username }}</h1>
+    
+    <p>View <a href="/ideas">all course ideas</a></p>
 {{else}}
     <h1>Are you SMOLE worthy?</h1>
     <form action="/sign-in" method="post">
